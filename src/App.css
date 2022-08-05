@@ -128,3 +128,29 @@ footer a:hover{
   line-height: 1.6;
   padding-top: 20px;
 }
+#header-container {
+    display: block;
+    position: fixed;
+    width: 150px;
+    height: 40px;
+    right: 50px;
+    top: 5px;
+    z-index: 999;
+}
+
+#themeOptions{
+  outline: none;
+    margin: 0 auto;
+    color: white;
+    background-color: black;
+    border: 5px solid black;
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 20px;
+}
+@media only screen and (max-width: 800px) {
+  #header-container{
+    display: none;
+  }
+}
